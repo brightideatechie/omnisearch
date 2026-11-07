@@ -1,0 +1,23 @@
+general:
+  instance_name: "OmniSearch"
+  contact_url: false
+  enable_metrics: false
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  default_lang: "en"
+  formats:
+    - html
+
+server:
+  base_url: "https://search.imine.me/"
+  secret_key: "ultrasecretkey"  # change in production
+  limiter: false
+  image_proxy: false
+
+ui:
+  static_use_hash: true
+  default_theme: simple
+  theme_args:
+    simple_style: dark
